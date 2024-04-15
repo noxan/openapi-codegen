@@ -57,31 +57,31 @@ importers:
   cli:
     dependencies:
       '@apollo/client':
-        specifier: ^3.5.10
+        specifier: ^3.9.11
         version: 3.9.11(@types/react@17.0.80)(graphql@15.8.0)(react@17.0.2)
       '@swc/core':
-        specifier: ^1.2.118
+        specifier: ^1.4.14
         version: 1.4.14
       case:
         specifier: ^1.6.3
         version: 1.6.3
       chalk:
-        specifier: ^5.0.0
+        specifier: ^5.3.0
         version: 5.3.0
       cli-highlight:
         specifier: ^2.1.11
         version: 2.1.11
       clipanion:
-        specifier: ^3.2.0-rc.10
+        specifier: ^3.2.1
         version: 3.2.1(typanion@3.14.0)
       fs-extra:
-        specifier: ^10.0.0
+        specifier: ^10.1.0
         version: 10.1.0
       got:
-        specifier: ^12.0.0
+        specifier: ^12.6.1
         version: 12.6.1
       got-fetch:
-        specifier: ^5.1.1
+        specifier: ^5.1.9
         version: 5.1.9(got@12.6.1)
       graphql:
         specifier: ^15.8.0
@@ -93,13 +93,13 @@ importers:
         specifier: ^4.1.0
         version: 4.1.0
       openapi3-ts:
-        specifier: ^2.0.1
+        specifier: ^2.0.2
         version: 2.0.2
       prettier:
         specifier: ^3.2.5
         version: 3.2.5
       rxjs:
-        specifier: ^7.5.4
+        specifier: ^7.8.1
         version: 7.8.1
       slash:
         specifier: ^4.0.0
@@ -108,29 +108,29 @@ importers:
         specifier: ^7.0.8
         version: 7.0.8
       tslib:
-        specifier: ^2.3.1
+        specifier: ^2.6.2
         version: 2.6.2
       typanion:
-        specifier: ^3.7.1
+        specifier: ^3.14.0
         version: 3.14.0
       typescript:
         specifier: 4.8.2
         version: 4.8.2
     devDependencies:
       '@graphql-codegen/cli':
-        specifier: ^2.6.2
+        specifier: ^2.16.5
         version: 2.16.5(@babel/core@7.24.4)(@swc/core@1.4.14)(@types/node@18.19.31)(graphql@15.8.0)(typescript@4.8.2)
       '@graphql-codegen/typescript':
-        specifier: ^2.4.5
+        specifier: ^2.8.8
         version: 2.8.8(graphql@15.8.0)
       '@graphql-codegen/typescript-operations':
-        specifier: ^2.3.2
+        specifier: ^2.5.13
         version: 2.5.13(graphql@15.8.0)
       '@graphql-codegen/typescript-react-apollo':
-        specifier: ^3.2.8
+        specifier: ^3.3.7
         version: 3.3.7(graphql-tag@2.12.6)(graphql@15.8.0)
       '@rollup/plugin-commonjs':
-        specifier: ^22.0.0
+        specifier: ^22.0.2
         version: 22.0.2(rollup@2.79.1)
       '@rollup/plugin-json':
         specifier: ^4.1.0
@@ -139,16 +139,16 @@ importers:
         specifier: ^13.3.0
         version: 13.3.0(rollup@2.79.1)
       '@rollup/plugin-typescript':
-        specifier: ^8.3.2
+        specifier: ^8.5.0
         version: 8.5.0(rollup@2.79.1)(tslib@2.6.2)(typescript@4.8.2)
       '@swc-node/register':
-        specifier: ^1.4.0
+        specifier: ^1.9.0
         version: 1.9.0(@swc/core@1.4.14)(@swc/types@0.1.6)(typescript@4.8.2)
       '@types/fs-extra':
         specifier: ^9.0.13
         version: 9.0.13
       '@types/js-yaml':
-        specifier: ^4.0.3
+        specifier: ^4.0.9
         version: 4.0.9
       '@types/nock':
         specifier: ^11.1.0
@@ -157,13 +157,13 @@ importers:
         specifier: ^3.0.0
         version: 3.0.0
       '@types/react':
-        specifier: ^17.0.39
+        specifier: ^17.0.80
         version: 17.0.80
       '@types/slash':
         specifier: ^3.0.0
         version: 3.0.0
       nock:
-        specifier: ^13.2.1
+        specifier: ^13.5.4
         version: 13.5.4
       react:
         specifier: ^17.0.2
@@ -1628,7 +1628,7 @@ packages:
       '@whatwg-node/fetch': 0.8.8
       chalk: 4.1.2
       debug: 4.3.4
-      dotenv: 16.3.2
+      dotenv: 16.4.5
       graphql: 15.8.0
       graphql-request: 6.1.0(graphql@15.8.0)
       http-proxy-agent: 6.1.1
@@ -4541,6 +4541,11 @@ packages:
 
   /dotenv@16.3.2:
     resolution: {integrity: sha512-HTlk5nmhkm8F6JcdXvHIzaorzCoziNQT9mGxLPVXW8wJF1TiGSL60ZGB4gHWabHOaMmWmhvk2/lPHfnBiT78AQ==}
+    engines: {node: '>=12'}
+    dev: true
+
+  /dotenv@16.4.5:
+    resolution: {integrity: sha512-ZmdL2rui+eB2YwhsWzjInR8LldtZHGDoQ1ugH85ppHKwpUHL7j7rN0Ti9NCnGiQbhaZ11FpR+7ao1dNsmduNUg==}
     engines: {node: '>=12'}
     dev: true
 
