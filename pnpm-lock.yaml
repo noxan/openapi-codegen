@@ -194,8 +194,8 @@ importers:
         specifier: ^1.5.2
         version: 1.6.0(@types/react@18.2.78)(react-dom@18.2.0)(react@18.2.0)
       '@openapi-codegen/typescript':
-        specifier: ^5.1.0
-        version: 5.2.1
+        specifier: link:../../plugins/typescript
+        version: link:../../plugins/typescript
       '@types/react':
         specifier: ^18.0.0
         version: 18.2.78
@@ -2576,18 +2576,6 @@ packages:
       - react-dom
       - subscriptions-transport-ws
       - utf-8-validate
-    dev: true
-
-  /@openapi-codegen/typescript@5.2.1:
-    resolution: {integrity: sha512-ggssdqArPvShpo2r7WDxgeQLOSP8n3vVseuf8RvU/5tkNSRHBsnqMGQIo/Yh6ApllEgSFimB7YFYfHwphbFZaw==}
-    dependencies:
-      case: 1.6.3
-      lodash: 4.17.21
-      openapi3-ts: 2.0.2
-      pluralize: 8.0.0
-      tslib: 2.6.2
-      tsutils: 3.21.0(typescript@4.8.2)
-      typescript: 4.8.2
     dev: true
 
   /@peculiar/asn1-schema@2.3.8:
@@ -8477,6 +8465,7 @@ packages:
   /pluralize@8.0.0:
     resolution: {integrity: sha512-Nc3IT5yHzflTfbjgqWcCPpo7DaKy4FnpB0l/zCAW0Tc7jxAiuqSxHasntB3D7887LSrA93kDJ9IXovxJYxyLCA==}
     engines: {node: '>=4'}
+    dev: false
 
   /postcss@8.4.38:
     resolution: {integrity: sha512-Wglpdk03BSfXkHoQa3b/oulrotAkwrlLDRSOb9D0bN86FdRyE9lppSp33aHNPgBa0JKCoB+drFLZkQoRRYae5A==}
@@ -9736,6 +9725,7 @@ packages:
     dependencies:
       tslib: 1.14.1
       typescript: 4.8.2
+    dev: false
 
   /tuf-js@1.1.7:
     resolution: {integrity: sha512-i3P9Kgw3ytjELUfpuKVDNBJvk4u5bXL6gskv572mcevPbSKCV3zt3djhmlEQ65yERjIbOSncy7U4cQJaB1CBCg==}
