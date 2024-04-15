@@ -1,3 +1,4 @@
 packages:
   - cli
   - plugins/typescript
+  - examples/frontend
