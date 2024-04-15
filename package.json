@@ -9,10 +9,6 @@
   "engines": {
     "node": ">=16"
   },
-  "workspaces": [
-    "cli",
-    "plugins/typescript"
-  ],
   "scripts": {
     "test": "jest",
     "build:all": "npx lerna run build",
